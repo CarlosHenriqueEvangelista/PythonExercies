@@ -1,0 +1,13 @@
+print("=========== DOCUMENT ===========")
+print("Please, fill in document with your informations")
+
+name = input("Name: ")
+age = input("Age: ")
+Country = input("Country: ")
+Number = int(input("Number: "))
+print("=================")
+print("Your document: ")
+print("Name: {}" .format(name))
+print("Age:", age)
+print("Country:", Country)
+print("Number:", Number)
