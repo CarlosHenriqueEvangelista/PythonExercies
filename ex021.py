@@ -1,3 +1,7 @@
-import playsound
-playsound.playsound('./NewStuff.mp3', True)
+from playsound import playsound
+
+print("Playing sound with playsound")
+
+playsound('NewStuff.mp3')
+
 

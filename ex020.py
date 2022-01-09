@@ -10,5 +10,5 @@ NameFour = str(input("Enter a name: "))
 RandomOrder = [NameOne, NameTwo, NameThree, NameFour]
 
 random.shuffle(RandomOrder)
- 
+
 print("The order chosen was: {}".format(RandomOrder))
